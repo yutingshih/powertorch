@@ -8,8 +8,8 @@ import torchvision
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 
-from models import LeNet5
-import helper
+from nth.models import LeNet5
+from nth import helper
 
 batch_size = 512
 trainset = datasets.MNIST('./data', train=True, download=True, transform=transforms.ToTensor())
