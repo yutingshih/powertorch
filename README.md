@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 
 ```python
-python3 example.py
+python3 -m examples.mnist
 ```
 
 ## Usage
@@ -18,6 +18,25 @@ python3 example.py
 ```python
 from nth import helper
 from nth import models
+```
+
+### Prepare Data
+
+```python
+trainloader, validloader = helper.prepare_data(
+    source=torchvision.datasets.MNIST,
+    train=True,
+    batch_size=256,
+    transform=transforms.ToTensor(),
+    splits=[0.8, 0.2],
+)
+
+testloader = helper.prepare_data(
+    source=torchvision.datasets.MNIST,
+    train=False,
+    batch_size=256,
+    transform=transforms.ToTensor(),
+)
 ```
 
 ### Define a Training Task
