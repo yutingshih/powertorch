@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Neural network Training Helper library for PyTorch models"
 author = {name = "Yu-Ting Shi", email = "the.yutings@gmail.com"}
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.8"
 dependencies = [
     "torch",
