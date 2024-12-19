@@ -1,3 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "nth"
+version = "0.1.0"
+description = "Neural network Training Helper library for PyTorch models"
+author = {name = "Yu-Ting Shi", email = "the.yutings@gmail.com"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "torchvision",
+]
+
+[project.urls]
+homepage = "https://github.com/yutingshih/nth"
+
 [tool.black]
 line-length = 80
 skip-string-normalization = true

@@ -3,9 +3,25 @@ Neural network Training Helper library for PyTorch models
 
 ## Getting Started
 
+### Installation
+
+You can install the library directly from the repository:
+
 ```shell
+pip install git+https://github.com/yutingshih/nth.git
+```
+
+Alternatively, clone the repository and manually install the dependencies:
+
+```shell
+git clone https://github.com/yutingshih/nth.git
+cd nth
 pip install -r requirements.txt
 ```
+
+### Quick Test
+
+To verify the installation, run the MNIST example:
 
 ```python
 python3 -m examples.mnist
