@@ -5,8 +5,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision.datasets import MNIST as Dataset
 
-from nth.models import Perceptron as DNN
-from nth import helper
+from powertorch.models import Perceptron as DNN
+from powertorch import helper
 
 
 batch_size = 512

@@ -1,5 +1,6 @@
-# nth
-Neural network Training Helper library for PyTorch models
+# PowerTorch
+
+A collection of PyTorch utilities designed to streamline the deep learning workflows
 
 ## Getting Started
 
@@ -8,13 +9,13 @@ Neural network Training Helper library for PyTorch models
 You can install the library directly from the repository:
 
 ```shell
-pip install git+https://github.com/yutingshih/nth.git
+pip install git+https://github.com/yutingshih/powertorch.git
 ```
 
 Alternatively, clone the repository and manually install the dependencies:
 
 ```shell
-git clone https://github.com/yutingshih/nth.git
+git clone https://github.com/yutingshih/powertorch.git
 cd nth
 pip install -r requirements.txt
 ```
@@ -32,8 +33,8 @@ python3 -m examples.mnist
 ### Import Package
 
 ```python
-from nth import helper
-from nth import models
+from powertorch import helper
+from powertorch import models
 ```
 
 ### Prepare Data
